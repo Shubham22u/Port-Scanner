@@ -23,7 +23,7 @@ try:
         print("Checking Port {}",format(port))
         if result == 0:
             print("Port {} is open ".format(port))
-        s,close()
+        s.close()
 except KeyboardInterrupt:
     print("\nExiting Program")
     sys.exit()
